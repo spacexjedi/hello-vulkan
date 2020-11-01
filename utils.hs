@@ -18,4 +18,5 @@ squares x = squaresthatx
 calcValue n = if even
               then change
               else otherchange
-  where change = n - 2 and otherchange 3*n+1
+  where change = n - 2 
+  otherchange 3*n+1
